@@ -35,4 +35,16 @@ export const questions = [
       }
     ],
   },
+  {
+    key: 3,
+    title: 'Question 4',
+    type: 'checkbox',
+    questions: [
+      {
+        key: 1,
+        description: 'Or  sss here?',
+        checked: false,
+      }
+    ],
+  },
 ];
