@@ -36,7 +36,7 @@ const Questions = () => {
                 pickedQuestion={pickedQuestion}
               />
             ) : question.type === "radio" ? (
-              <RadioType question={question} />
+              <RadioType question={question} pickedQuestion={pickedQuestion} />
             ) : (
               <div>Unexpected type</div>
             )}

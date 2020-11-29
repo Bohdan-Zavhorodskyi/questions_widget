@@ -12,8 +12,6 @@ const QuestionSelect = ({ question }) => {
     console.log(`selected ${value}`);
   };
 
-  console.log(question);
-
   return (
     <div className={classes.options}>
       <Select

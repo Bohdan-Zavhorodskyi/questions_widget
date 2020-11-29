@@ -22,6 +22,8 @@ const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
     padding: "10px 5px",
+    boxShadow: "0 0 5px 1px black",
+    marginTop: "10px",
   },
 
   options: {
